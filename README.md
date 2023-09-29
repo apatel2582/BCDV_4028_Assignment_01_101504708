@@ -15,8 +15,8 @@ This application is a cross-chain ERC20 bridge that allows for the transfer of t
 ## Contracts
 1. `BridgeA.sol`: Handles locking and releasing of tokens on the source blockchain.
 2. `BridgeB.sol`: Handles the minting of tokens on the destination blockchain.
-3. `TokenA.sol`: ERC20 token contract for the source blockchain.
-4. `TokenB.sol`: ERC20 token contract for the destination blockchain.
+3. `TokenA.sol`: ERC20 token contract.
+4. `TokenB.sol`: ERC20 token contract.
 
 ## Testnets Used
 1. Ganache local testnet
@@ -28,7 +28,7 @@ This application is a cross-chain ERC20 bridge that allows for the transfer of t
 - `TokenA`: ```0xcd79caC35aFb2A54EdfB3E9e2F78B252cfe52DF7``` Ganache TokenA Address
 - `TokenB`: ```0x26CE552E97f1974B7cc0a3B73372B2899c2eDE97``` Sepolia TokenB Address
 - `Wallet Metamask`: ```0x2C60503A0A02D73E64CdC22303977f1768127751``` Sepolia Wallet Address
-- `Wallet Ganache`: ```0xE378BC1F244ed543A96649D236d5237edD781dD5``` Ganache Walled Address
+- `Wallet Ganache`: ```0xE378BC1F244ed543A96649D236d5237edD781dD5``` Ganache Wallet Address
 ## Installation and Setup
 1. Clone the repository.
 2. Make sure to install nodejs, truffle, ethers and fs. 
