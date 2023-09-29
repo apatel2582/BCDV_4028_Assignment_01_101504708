@@ -46,7 +46,7 @@ This will run the test file ```test/bridgeA.test.js```, which tests the BridgeA 
 
 ## Demonstration Script
 Run the demonstration script using the following command:
-- ```truffle exec scripts/demo.js --network development```
+- ```truffle exec scripts/bridge_demo.js --network development```
 
 This script will demonstrate sending and receiving tokens over the bridge.
 
